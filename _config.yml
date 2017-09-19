@@ -1,6 +1,6 @@
 # Site settings
 title: JVBlog
-description: 'JVBond Projects'
+description: 'Information, musings, and projects on cyber security'
 url: 'https://jvbond.github.io'
 baseurl: 
 # google_analytics: 'UA-XXXXXX-X'
