@@ -1,6 +1,16 @@
 _site
-.sass-cache
+.DS_Store
+.jekyll
 .jekyll-metadata
+<<<<<<< HEAD
 *.sublime-project
 *.sublime-workspace
 .DS_Store
+=======
+.bundle
+.sass-cache
+Gemfile
+Gemfile.lock
+node_modules
+package.json
+>>>>>>> origin/master

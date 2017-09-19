@@ -32,11 +32,54 @@ sass:
     sass_dir: _sass
     style: compressed
 
+<<<<<<< HEAD
 kramdown:
   # use Github Flavored Markdown
   input: GFM
   # do not replace newlines by <br>s
   hard_wrap: false
+=======
+# Site Data
+url: https://jvbond.github.io/
+baseurl: # the subpath of your site, e.g. /blog
+title: JVBlog
+description: "Cyber security musings, projects, and education"
+keywords: 'Cyber,security,blog,cryptography'
+author:
+  name:
+  job_title:
+  location:
+  email:
+  social_links:
+    - name: facebook
+      url:
+    - name: github
+      url: https://github.com/jvbond
+    - name: instagram
+      url:
+    - name: linkedin
+      url:
+    - name: stackoverflow
+      url:
+    - name: twitter
+      url: 
+    - name: vk
+      url:
+home:
+  section1: <h1>JVBond</h1>
+  section2: <h2>Cyber security musings, projects, and education</h2>
+  section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/jvbond" title="Github Repo"></a></div>
+blog:
+  cc_license: # A link to CC License of your choice, e.g. http://creativecommons.org/licenses/by-sa/4.0/.
+  cc_license_image: # An image of your CC License, e.g. /assets/images/theme/cc-by-sa.png
+  footer_content: A gem-based responsive simple texture styled Jekyll theme.
+
+disqus:
+  shortname:
+  public_key:
+google_analytics:
+addthis_public_id: # AddThis sharing plugin. See http://www.addthis.com/
+>>>>>>> origin/master
 
 gems: ['jekyll-paginate']
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
