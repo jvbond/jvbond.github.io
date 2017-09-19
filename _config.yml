@@ -26,7 +26,7 @@ url: https://jvbond.github.io/
 baseurl: # the subpath of your site, e.g. /blog
 title: JVBlog
 description: "Cyber security musings, projects, and education"
-keywords: 'Cyber, security,blog'
+keywords: 'Cyber,security,blog,cryptography'
 author:
   name:
   job_title:
