@@ -1,7 +1,7 @@
 # Site settings
-title: JVBlog
+title: 'JVBlog'
 description: 'JVBond Projects'
-url: 'https://jvbond.github.io/
+url: 'https://jvbond.github.io/'
 baseurl: 
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
