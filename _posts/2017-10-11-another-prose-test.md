@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Another Prose test
 ---
 ## This is just a test
