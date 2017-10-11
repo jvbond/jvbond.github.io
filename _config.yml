@@ -39,14 +39,17 @@ kramdown:
 prose:
   rooturl: '_posts'
   siteurl: 'https://jvbond.github.io/#blog'
-  media: 'images'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
   metadata:
     _posts:
-      - name: "published"
+      - name: "layout"
         field:
-          label: "Published"
-          element: "checkbox"
-          value: "true"
+          element: "hidden"
+          value: "post"
       - name: "title"
         field:
           label: "Title"
