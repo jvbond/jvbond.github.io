@@ -54,6 +54,11 @@ prose:
           label: "Title"
           element: "text"
           value: "Title HERE"
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          value: false
       - name: "categories"
         field:
           element: "multiselect"
