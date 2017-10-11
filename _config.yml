@@ -1,7 +1,7 @@
 # Site settings
 title: JVBlog
 description: 'Information, musings, and projects on cyber security'
-url: 'https://jvbond.github.io'
+url: 'http://jvbond.github.io'
 baseurl: 
 
 author:
@@ -38,7 +38,7 @@ kramdown:
   
 prose:
   rooturl: '_posts'
-  siteurl: 'http://jvbond.github.io'
+  siteurl: 'http://jvbond.github.io/#blog'
   media: 'images'
   metadata:
     _posts:
