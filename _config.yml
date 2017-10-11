@@ -3,8 +3,6 @@ title: JVBlog
 description: 'Information, musings, and projects on cyber security'
 url: 'https://jvbond.github.io'
 baseurl: 
-# google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
 
 author:
   name: 'Jeff Bond'
@@ -37,6 +35,56 @@ kramdown:
   input: GFM
   # do not replace newlines by <br>s
   hard_wrap: false
+  
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://hmfaysal.github.io/Notepad/'
+  relativeLinks: 'http://hmfaysal.github.io/Notepad/links.jsonp'
+  media: 'images'
+  metadata:
+    _posts:
+      - name: "published"
+        field:
+          label: "Published"
+          element: "checkbox"
+          value: "true"
+      - name: "layout"
+        field:
+          element: "hidden"
+          label: "Layout"
+          value: "post"
+      - name: "title"
+        field:
+          label: "Title"
+          element: "text"
+          value: "An Awesome Headline!"
+      - name: "headline"
+        field:
+          element: "text"
+          label: "beadline"
+          placeholder: "Enter Post Headline"
+      - name: "modified"
+        field:
+          element: "text"
+          label: "Has this page been modified?"
+          placeholder: "YYYY-MM-DD"
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Add categories"
+          placeholder: "Choose categories"
+          value: personal
+          options:
+            - name: "Personal"
+              value: personal
+            - name: "Security"
+              value: security
+            - name: "OSCP"
+              value: oscp
+            - name: "Code"
+              value: code
+          alterable: true
+
 
 gems: ['jekyll-paginate']
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
