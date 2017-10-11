@@ -36,6 +36,39 @@ kramdown:
   # do not replace newlines by <br>s
   hard_wrap: false
 
+prose:
+  rooturl: '_posts'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          label: "Title"
+          element: "text"
+          value: "Title HERE"
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Add categories"
+          placeholder: "Choose categories"
+          value: personal
+          options:
+            - name: "Security"
+              value: security
+            - name: "OSCP"
+              value: oscp
+            - name: "Code"
+              value: code
+          alterable: true
+          
 gems: ['jekyll-paginate']
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
 
