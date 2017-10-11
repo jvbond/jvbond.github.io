@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Self Summary?
 ---
 ## This is just a test
