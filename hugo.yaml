@@ -1,0 +1,321 @@
+baseURL: "https://jvbond.github.io/"
+languageCode: "en-us"
+title: "Artisanal Security"
+theme: hugo-profile
+
+caches:
+  images:
+    dir: :cacheDir/images
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+#services:
+  #googleAnalytics:
+    #id: G-MEASUREMENT_ID
+
+pagination:
+  pagerSize: 5
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /blog
+      weight: 1
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "JVBond"
+  description: Artisanal Security Musings
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/images/favicon.png"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
+  mathjax: false
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    defaultTheme: "dark"
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # When using hex codes for colors, quotations must be used along with the # sign
+  # color:
+  #   textColor: "#343a40"
+  #   secondaryTextColor: "#6c757d"
+  #   textLinkColor: "#007bff"
+  #   backgroundColor: "#eaedf0"
+  #   secondaryBackgroundColor: "#64ffda1a"
+  #   primaryColor: "#007bff"
+  #   secondaryColor: "#f8f9fa"
+
+  #   darkmode:
+  #     textColor: "#e4e6eb"
+  #     secondaryTextColor: "#b0b3b8"
+  #     textLinkColor: "#ffffff"
+  #     backgroundColor: "#18191a"
+  #     secondaryBackgroundColor: "#212529"
+  #     primaryColor: "#ffffff"
+  #     secondaryColor: "#212529"
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    brandName: "Artisanal Security" # Brand name for the brand | default is the title variable
+    disableSearch: true
+    # searchPlaceholder: "Search"
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: true
+      disableProjects: false
+      disableAchievements: true
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, I'm"
+    title: "Jeff Bond."
+    subtitle: "I ask questions and (try to) find answers"
+    content: "Expanding and exploring knowledge on the intersections of team building, mentorship, and system design. I believe that effective security is the function of the design of a system rather than any individual technology or skill. I view security as a business enablement function as the processes and data required for a system to be secure also enable other functions to deliver more efficiently."
+    image: /images/Headshot_small.jpg
+    bottomImage:
+      enable: true
+    # roundImage: true # Make hero image circular | default false
+    #button:
+    #  enable: true
+    #  name: "Resume"
+    #  url: "#"
+    #  download: true
+    #  newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/jvbond
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/jvbond/
+      #customIcons:
+      #  - icon: /fav.png
+      #    url: "https://example.com"
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/Headshot_small_coin.png"
+    content: |-
+      I grew up working on cars and climbing mountains but still spent my nights learning about computers.  I am a passionate security and people advocate. Having worked for companies from startups to the US government, I find balance in the implementation and design of security by managing risk rather than compliance. Good security doesn't have to be perfect or expensive.
+
+      My current side projects revolve around local genAI, automation, and zero trust.
+    skills:
+      enable: true
+      title: "Current Certifications:"
+      items:
+        - "Certified Information Systems Security Professional (CISSP)"
+        - "Information Systems Security Architecture Professional (ISSAP)"
+        - "SABSA Chartered Architect - Foundation (SCF)"
+        - "Certificate of Competence in Zero Trust (CCZT)"
+
+  # Experience
+  experience:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - company: "Aquia"
+        jobs:
+          - name: "CISO / VP Security Engineering"
+            date: "Jan 2023 - Sept 2025"
+            content: |
+              - Helped grow the startup from ~20 staff to ~100 staff
+              - Standardized and implemented the hiring process including automating onboarding post hire
+              - Implemented MFA for all internal users across high priority systems
+              - Standardized and documented policies and procedures for cyber operations to CMMC level 2
+          - name: "Director of Security Architecture"
+            date: "May 2022 - Dec 2023"
+            content: |
+              - Managed a team of 6 security architects performing client work across a number of areas
+              - Ran the ITOps team of volunteers for a fully remote workforce
+              - Drove the Zero Trust strategy and transformation at Centers for Medicare and Medicaid Services (CMS)
+
+      - company: "Deloitte"
+        jobs:
+          - name: "Cybersecurity Architect"
+            date: "Mar 2020 - May 2022"
+            info:
+              content: Solution Manager II was my official title but Deloitte has generic titles.
+            content: |
+              - Created, documented, and automated the standard deployment of Tenable and Splunk across the delivery org
+              - Lead security architect for DISA AI/ML program. Focused on multi-cloud zero trust
+              - Created DoDAF training for architects and developers to standardize documentation and communication
+              - Managed several security teams responsible for vulnerability management of state healthcare exchanges
+
+      - company: "Northrop Grumman"
+        jobs:
+          - name: "Cybersecurity Architect"
+            date: "Oct 2014 - Mar 2020"
+            content: |
+              - Lead of security team responsible for achieving first continuous ATO in MAF OTI 
+              - Co-wrote corporate level System Security Engineering Handbook
+              - Planned and implemented full security suites for multi-level classification systems
+              - Developed several innovative and cost conscious compliance solutions for mobile and deployed systems
+
+      - company: "Army SECore CVE Program"
+        jobs:
+        - name: "StackFrame"
+          date: "Mar 2012 - Oct 2014"
+          content: |
+              - Managed compliance and reporting of system to Army governance standards.
+              - Led physical datacenter migration/move between program awards.
+              - Improved build efficiency by 85% at a 45% reduction in cost through the deep evaluation of software and system performance and a shift in hardware procurement strategy.
+              - Implemented multi-classification virtual development environment and encrypted HDDs.
+              - Evaluated and implemented network attached storage system to decrease cost and improve performance of distributed processing system.
+        - name: "CAE USA"
+          date: "Apr 2007 - Mar 2012"
+          content: |
+              - Managed compliance and reporting of system to Army governance standards.
+              - Led physical datacenter migration/move between program awards.
+              - Improved build efficiency by 85% at a 45% reduction in cost through the deep evaluation of software and system performance and a shift in hardware procurement strategy.
+              - Implemented multi-classification virtual development environment and encrypted HDDs.
+              - Evaluated and implemented network attached storage system to decrease cost and improve performance of distributed processing system.
+
+  # projects
+  projects:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: Okta+Yubikey Implementation Guide
+        content: Implemented at CMS and adopted by the GSA This is a guide for implementing Yubikeys as a Phishing Resistant MFA option within Okta.
+        image: /images/Generic_project.webp
+        featured:
+          name: Guide
+          link: https://www.idmanagement.gov/implement/yubikey-guide/
+        badges:
+          - "Okta"
+          - "IDAM"
+          - "PR-MFA"
+
+      - title: TODO
+        content: todo
+        image: /images/Generic_project.webp
+        featured:
+          name: todo
+          link: 
+        badges:
+          - "A"
+          - "B"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/jvbond
+
+      - title: TODO
+        content: todo
+        image: /images/Generic_project.webp
+        featured:
+          name: todo
+          link: 
+        badges:
+          - "A"
+          - "B"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/jvbond
+
+  #Contact
+  contact:
+    enable: true
+    # title: "Custom Name"
+    content: For now, find me on LinkedIn and send me a message. Mention this space or something relevant.
+    btnName: LinkedIn
+    btnLink: https://www.linkedin.com/in/jvbond/
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: true
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com/jvbond
+      linkedin: https://www.linkedin.com/in/jvbond/
+      twitter: https://twitter.com/jvbond
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  #  <script type="text/javascript"><!-- any script here --></script>
