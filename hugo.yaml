@@ -131,11 +131,11 @@ params:
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
-    #button:
-    #  enable: true
-    #  name: "Resume"
-    #  url: "#"
-    #  download: true
+    button:
+      enable: true
+      name: "Resume"
+      url: "https://drive.google.com/file/d/1DGamakIi5KR-hKDLzfXh57xbWUeYc36R/view?usp=sharing"
+      download: true
     #  newPage: false
     socialLinks:
       fontAwesomeIcons:
