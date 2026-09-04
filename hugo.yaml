@@ -18,9 +18,9 @@ outputs:
 
 enableRobotsTXT: true
 
-#services:
-  #googleAnalytics:
-    #id: G-MEASUREMENT_ID
+services:
+  googleAnalytics:
+    id: G-6HL1KSFK47
 
 pagination:
   pagerSize: 5
