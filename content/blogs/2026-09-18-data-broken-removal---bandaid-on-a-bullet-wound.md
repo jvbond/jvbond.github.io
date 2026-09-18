@@ -30,6 +30,7 @@ For regular people? Absolutely not. That is to say, the intention is absolutely 
 
 First bit of history, Cambridge Analytica. This was a scandal that rocked Facebook and the general public in 2018. It centered around Facebook actively trying to "[undermine users’ privacy preferences](https://www.ftc.gov/news-events/news/press-releases/2019/07/ftc-imposes-5-billion-penalty-sweeping-new-privacy-restrictions-facebook)" which led to Cambridge Analytica having MUCH more data than it was supposed to. It is also important to note that this mattered mostly because it was a violation of a separate 2012 FTC order requiring user consent to share data after Facebook "[deceived consumers by telling them they could keep their information on Facebook private, and then repeatedly allowing it to be shared and made public](https://www.ftc.gov/news-events/news/press-releases/2012/08/ftc-approves-final-settlement-facebook)" Both of these suits were settled with Facebook. 
 
+
 ## Legal Framework (In the U.S.)  
 
 The laws, where they even exist, are too late to the party and do not control this industry enough to make a meaningful difference. Lets review the relevant statues.
@@ -50,6 +51,7 @@ The state laws, with the exception of California, effectively only require data 
 While these state laws are the absolute and very least that can be done they have come WAY too late and cover way too little. Additionally, they cover a limited number of entities and ignore the ease at which new companies can be stood up and torn down to collect information.
 
 While those protections exist, there are also laws that effectively provide information to data brokers. Voter registration information is legally required to be publicly available in 21 states. 15 other states only have restrictions on the information's "usage". The information provided varies slightly but generally it will include name, address, date of birth, and often phone number. Most counties also make their property tax records public and accessible online. 
+
 
 ## Corporate Policy  
 
@@ -81,21 +83,23 @@ ALL of this information is compiled on you, stored, and then released or sold to
 
 So we've got an idea of WHAT data a single company collects on you as well as what it has the "right" to share and with WHO. Next we'll take a very quick look at where this data goes. 
 
+
 ## Data Sharing Landscape  
 
-There are obvious and not so obvious reasons for companies to monitor and store data on you, a few of those reasons aren't even nefarious. This data however, is another product for a company to sell and sell it they will.
-This leads us into what, I'm going to call, the data sharing space. You will often see this identified as ad-tech (advertising), mar-tech (marketing), customer intelligence, or any number of other names. For our purposes, in this "data sharing" space the output and purpose doesn't matter but your information does. 
-In this space companies have direct business relationships (which means legal protection to sell your information) with companies for business purposes. Walmart even has their own data marketplace, [Walmart Connect](https://www.walmartconnect.com/partners/partner-directory), of 3rd party companies who get Walmart data and can assist other companies with making that data actionable. Currently, they list 310 companies as partners.
-Generally speaking, this data sharing space exists for companies to identify people or persons to be specifically targeted. Again, their stated reasons don't matter because the end result is often the same; Enough information to specifically identify and manipulate. A data purchasing platform [Datarade](https://datarade.ai/) currently lists "data products" from over 2700 sources and over 240 use cases. These use cases include credit risk scoring, behavioral targeting, telemarketing, and most nefariously of all, "identity resolution". Identity resolution (and similar names) effectively identifies individuals from large groups of information.
-Companies will often tout that they "anonymize" data before selling it. I'm not going to get into the math here but what is often touted as "anonymous" data is almost never actually anonymous. Identification of an individual is trivial with enough information and these platforms provide more than enough.
+There are obvious and not so obvious reasons for companies to monitor and store data on you, a few of those reasons aren't even nefarious. This data however, is another product for a company to sell and sell it they will.  
+This leads us into what, I'm going to call, the data sharing space. You will often see this identified as ad-tech (advertising), mar-tech (marketing), customer intelligence, or any number of other names. For our purposes, in this "data sharing" space the output and purpose doesn't matter but your information does.   
+In this space companies have direct business relationships (which means legal protection to sell your information) with companies for business purposes. Walmart even has their own data marketplace, [Walmart Connect](https://www.walmartconnect.com/partners/partner-directory), of 3rd party companies who get Walmart data and can assist other companies with making that data actionable. Currently, they list 310 companies as partners.  
+Generally speaking, this data sharing space exists for companies to identify people or persons to be specifically targeted. Again, their stated reasons don't matter because the end result is often the same; Enough information to specifically identify and manipulate. A data purchasing platform [Datarade](https://datarade.ai/) currently lists "data products" from over 2700 sources and over 240 use cases. These use cases include credit risk scoring, behavioral targeting, telemarketing, and most nefariously of all, "identity resolution". Identity resolution (and similar names) effectively identifies individuals from large groups of information.  
+Companies will often tout that they "anonymize" data before selling it. I'm not going to get into the math here but what is often touted as "anonymous" data is almost never actually anonymous. Identification of an individual is trivial with enough information and these platforms provide more than enough.  
 
 A general picture of this landscape can be found in crackedlabs "[Corporate Surveilance](https://crackedlabs.org/en/corporate-surveillance/#7)" post. 
 
 ![Digital Tracking and Profiling Landscape](/images/tracking-landscape.jpg)
 
-This is just the perfectly legal side of the industry. There are innumerable number of ways to obtain data in legally dubious or illegal ways. Systems like Real Time Bidding (RTB) rapidly disseminate information on users in order to run an auction style sale on online advertisements. This system does not require much in the way of provenance for placing advertisements but provides data to all potential bidders.  [Examples of this information](https://brave.com/static-assets/files/3-bid-request-examples.pdf) has been published by Brave.
-In the illegal side are the breaches and exposures. The same legal marketplace that exists in plain view also exists as an underground illegal marketplace. The main difference here is that these data sets often come complete with complete data such as credit card numbers and/or social security numbers. Companies collect and store all your information but rarely protect it well enough. This information is then stolen and sold repeatedly.
-But even beyond all that are the records that are just available to the public. Your phone number is listed publicly. Property taxes are public records. Your voter registration information is public record. Occasionally there is a small fee but more often than not it is all just available online. The companies or nefarious actors who use this information against you will not loose access to it if you sign up for a "data removal" service.
+This is just the perfectly legal side of the industry. There are innumerable number of ways to obtain data in legally dubious or illegal ways. Systems like Real Time Bidding (RTB) rapidly disseminate information on users in order to run an auction style sale on online advertisements. This system does not require much in the way of provenance for placing advertisements but provides data to all potential bidders.  [Examples of this information](https://brave.com/static-assets/files/3-bid-request-examples.pdf) has been published by Brave.  
+In the illegal side are the breaches and exposures. The same legal marketplace that exists in plain view also exists as an underground illegal marketplace. The main difference here is that these data sets often come complete with complete data such as credit card numbers and/or social security numbers. Companies collect and store all your information but rarely protect it well enough. This information is then stolen and sold repeatedly.  
+But even beyond all that are the records that are just available to the public. Your phone number is listed publicly. Property taxes are public records. Your voter registration information is public record. Occasionally there is a small fee but more often than not it is all just available online. The companies or nefarious actors who use this information against you will not loose access to it if you sign up for a "data removal" service.  
+
 
 ## What Can You Do?  
 
@@ -107,6 +111,7 @@ In the mean time, the standard general advice would apply. There are certainly s
 - Implement some personal and family protection processes.
 	- Have a code word or better yet, a series of codewords. For example, a code word to verify your family on the phone for general instructions. This system can be expanded to cover friends, family, and any situations you need for your specific circumstances.
 	- Do not just follow directions if they are given to you. Verify information on your own first. If there is something going on with your bank, navigate to your bank's website how you normally would and check first. Do NOT blindly follow instructions given to you. There is almost nothing you will ever legitimately have to deal with immediately without thinking.
+
 
 ## Conclusion  
 
@@ -120,6 +125,6 @@ The data collection and abuse landscape in the U.S. is bleak. Services that purp
 
 **Additional Resources**:  
 
-[EFF's Behind the One Way Mirror](https://www.eff.org/files/2019/12/11/behind_the_one-way_mirror-a_deep_dive_into_the_technology_of_corporate_surveillance_0.pdf)
-[Runbox - The Hidden World of Privacy Policies](https://runbox.com/blog/2024/12/the-hidden-world-of-privacy-policies/)
-[UPENN - American's Can't Consent](https://www.asc.upenn.edu/sites/default/files/2023-02/Americans_Can%27t_Consent.pdf)
+[EFF's Behind the One Way Mirror](https://www.eff.org/files/2019/12/11/behind_the_one-way_mirror-a_deep_dive_into_the_technology_of_corporate_surveillance_0.pdf)  
+[Runbox - The Hidden World of Privacy Policies](https://runbox.com/blog/2024/12/the-hidden-world-of-privacy-policies/)  
+[UPENN - American's Can't Consent](https://www.asc.upenn.edu/sites/default/files/2023-02/Americans_Can%27t_Consent.pdf)  

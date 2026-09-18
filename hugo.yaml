@@ -96,7 +96,7 @@ params:
      darkmode:
   #     textColor: "#e4e6eb"
   #     secondaryTextColor: "#b0b3b8"
-       textLinkColor: "#7365EB"
+       textLinkColor: "#B47CF2"
   #     backgroundColor: "#18191a"
   #     secondaryBackgroundColor: "#212529"
   #     primaryColor: "#ffffff"
