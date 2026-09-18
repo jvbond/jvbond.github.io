@@ -84,7 +84,7 @@ params:
 
   # color preference
   # When using hex codes for colors, quotations must be used along with the # sign
-  # color:
+  color:
   #   textColor: "#343a40"
   #   secondaryTextColor: "#6c757d"
   #   textLinkColor: "#007bff"
@@ -93,10 +93,10 @@ params:
   #   primaryColor: "#007bff"
   #   secondaryColor: "#f8f9fa"
 
-  #   darkmode:
+     darkmode:
   #     textColor: "#e4e6eb"
   #     secondaryTextColor: "#b0b3b8"
-  #     textLinkColor: "#ffffff"
+       textLinkColor: "#7365EB"
   #     backgroundColor: "#18191a"
   #     secondaryBackgroundColor: "#212529"
   #     primaryColor: "#ffffff"
@@ -125,7 +125,7 @@ params:
     enable: true
     intro: "Hi, I'm"
     title: "Jeff Bond."
-    subtitle: "I ask questions and (try to) find answers"
+    subtitle: "Security with a human touch"
     content: "Expanding and exploring knowledge on the intersections of team building, mentorship, and system design. I believe that effective security is the function of the design of a system rather than any individual technology or skill. I view security as a business enablement function as the processes and data required for a system to be secure also enable other functions to deliver more efficiently."
     image: /images/Headshot_small.jpg
     bottomImage:
@@ -134,7 +134,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "https://drive.google.com/file/d/1DGamakIi5KR-hKDLzfXh57xbWUeYc36R/view?usp=sharing"
+      url: "https://drive.google.com/file/d/1KYaN3ZZ7vqsODb0tCK1qtQjjf6l6axOt/view?usp=sharing"
       download: true
     #  newPage: false
     socialLinks:

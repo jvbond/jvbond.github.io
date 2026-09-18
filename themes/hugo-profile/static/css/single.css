@@ -52,7 +52,7 @@
 }
 
 #single .page-content h1, #single .page-content h2, #single .page-content h3, #single .page-content h4, #single .page-content h5, #single .page-content h6 {
-    color: var(--text-link-color) !important;
+    color: var(--text-color) !important;
     margin-bottom: 0.7em;
     opacity: 0.9;
 }
@@ -261,7 +261,7 @@
 #single aside.social .social-content ul li a {
     border: 1px solid var(--primary-color);
     padding: .7rem;
-    color: var(--text-link-color) !important;
+    color: var(--text-color) !important;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -273,7 +273,7 @@
 
 #single aside.social .social-content ul li:hover a {
     opacity: .8;
-    color: var(--text-link-color) !important;
+    color: var(--text-color) !important;
 }
 
 /* Top scroll */
